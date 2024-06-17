@@ -4,7 +4,6 @@ import React, { useCallback, useState } from "react";
 import Banner from "./banner";
 import navValues from "../helpers/navValues";
 import ComponentPicker from "./componentPicker";
-import ToDoList from "./todoList";
 
 const navigationContext = React.createContext(navValues.home);
 
