@@ -1,4 +1,9 @@
-const House = ({house}) => {
+import { useContext } from "react";
+import { navigationContext } from "./app";
+
+const House = () => {
+    const { param: house } = useContext(navigationContext);
+    
     return (
         <div className="row">
             <div className="col-6">
